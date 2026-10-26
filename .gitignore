@@ -1,0 +1,17 @@
+# Environnement Python local (recréé avec pip install -r requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# Données brutes : retéléchargées par pipeline/telecharger*.py
+data/raw/
+
+# Configuration locale de l'éditeur / de Claude
+.claude/
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
